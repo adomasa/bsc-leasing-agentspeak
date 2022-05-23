@@ -1,0 +1,13 @@
+MAS lizingavimas {
+     environment:
+        c4jason.CartagoEnvironment
+
+    agents:
+        pirkejas agentArchClass c4jason.CAgentArch;
+        lizinguotojas agentArchClass c4jason.CAgentArch;
+        autentifikuotojas agentArchClass c4jason.CAgentArch;
+        soc_draudimo_atstovas agentArchClass c4jason.CAgentArch;
+
+    classpath: "../../../lib/cartago.jar";"../../../lib/c4jason.jar";
+}
+

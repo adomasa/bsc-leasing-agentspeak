@@ -1,0 +1,10 @@
+# Project exclude paths
+/.gradle/
+/src/main/java/bin/
+/.idea/
+bin
+*.DS_Store
+.settings
+.vscode
+.classpath
+.project
